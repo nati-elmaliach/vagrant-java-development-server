@@ -5,7 +5,7 @@ This development server includes:
 - Eclipse
 - java
 - Tomcat v7.0.103
-- Mysql
+- Mysql(you can overwrite the `create_test_table.sql`)
 
 
 # Steps: 
