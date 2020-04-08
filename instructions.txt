@@ -1,0 +1,3 @@
+1. open the eclpse ide click on servers add new server apache-7 
+2. right click -> properties -> switch location -> apply -> ok
+3. double click on the server -> choose use tomcat installation -> save(on top)
