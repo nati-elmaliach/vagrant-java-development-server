@@ -15,3 +15,7 @@ This development server includes:
  - cd to the cloned directory and run `vagrant up`
 
 
+# Configurations:
+- To access the database run `mysql -uroot -pMySuperPassword`
+- The communication database is for testing only
+
