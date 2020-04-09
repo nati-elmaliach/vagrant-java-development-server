@@ -14,6 +14,7 @@ This development server includes:
  - install VirtualBox https://www.virtualbox.org/wiki/Downloads
  - git clone <this repo url>
  - cd to the cloned directory and run `vagrant up`
+ - wait for the machine to boot up , it may take a couple of minutes the first time.
 
 
 # Configurations:
