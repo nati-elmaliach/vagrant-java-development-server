@@ -61,9 +61,24 @@ validate_mysql() {
     fi
 }
 
+validate_git() {
+    which git > /dev/null 2>&1
+    if [ $? -eq 0 ]
+    then
+        format_output "git installed"
+    else
+        format_output "Installing git and cloning the project"
+        apt install -y git >/dev/null 2>&1
+        git clone https://github.com/nati-elmaliach/CommunicationLTD-servlet.git Desktop/Communication
+        chmod -R 777 Desktop/Communication
+    fi
+
+}
+
 # Script entry point
 main() {
     validate_mysql
+    validate_git
     validate_tomcat 
 }
 
