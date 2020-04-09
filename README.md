@@ -6,6 +6,7 @@ This development server includes:
 - java
 - Tomcat v7.0.103
 - Mysql(you can overwrite the `create_test_table.sql`)
+- The Communication repo
 
 
 # Steps: 
